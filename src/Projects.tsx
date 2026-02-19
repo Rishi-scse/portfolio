@@ -16,25 +16,26 @@ const projects = [
     }
   },
   {
-    title: "Advanced Alarm App",
-    date: "Dec 2025",
-    description: "A high-reliability alarm system using AlarmManager and Broadcast Receivers for persistent background tasks. Utilizes Room Database for local data persistence and features custom snooze logic to improve user experience.",
-    tech: ["Kotlin", "Room Database", "Broadcast Receivers", "AlarmManager"],
-    color: "from-blue-500 to-indigo-500",
-    links: {
-      demo: "#"
-    }
-  },
-  {
-    title: "Daily Quote App",
-    date: "Sep 2025",
-    description: "A minimalist motivational app using Retrofit to fetch data from REST APIs and MVVM architecture for clean code structure. Features a one-tap share functionality allowing users to export quotes to social media platforms.",
-    tech: ["Kotlin", "Retrofit", "MVVM", "REST API"],
-    color: "from-indigo-500 to-purple-500",
-    links: {
-      github: "#"
-    }
+  title: "Advanced Alarm App",
+  date: "Dec 2025",
+  description: "A high-reliability alarm system using AlarmManager and Broadcast Receivers for persistent background tasks. Utilizes Room Database for local data persistence and features custom snooze logic to improve user experience.",
+  tech: ["Kotlin", "Room Database", "Broadcast Receivers", "AlarmManager"],
+  color: "from-blue-500 to-indigo-500",
+  links: {
+    github: "https://github.com/Rishi-scse/Advanced-Alarm-App"
   }
+},
+{
+  title: "Daily Quote App",
+  date: "Sep 2025",
+  description: "A minimalist motivational app using Retrofit to fetch data from REST APIs and MVVM architecture for clean code structure. Features a one-tap share functionality allowing users to export quotes to social media platforms.",
+  tech: ["Kotlin", "Retrofit", "MVVM", "REST API"],
+  color: "from-indigo-500 to-purple-500",
+  links: {
+    github: "https://github.com/Rishi-scse/Daily-Quote-App"
+  }
+}
+
 ];
 
 export function Projects() {
